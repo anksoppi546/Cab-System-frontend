@@ -5,6 +5,16 @@ This is a Next.js application for the frontend of a cab system.
 - Frontend : https://cab-system-frontend-ankit.vercel.app/
 - Backend : https://cab-system-backend-3jxx.onrender.com
 
+## Booking Ride Page
+Users can book a ride from here by selecting vehicles of own choice. After a successful booking, booking details are sent on their provided email-id.
+![Screenshot 2024-08-12 230149](https://github.com/user-attachments/assets/c24a62b4-e64a-4fab-98ac-863033af3845)
+
+## Cab Management Page
+Pricing and Availability of cabs are managed here.
+![Screenshot 2024-08-12 230227](https://github.com/user-attachments/assets/3257ac77-5699-4fba-aae9-2c343a012f72)
+
+Users can see all booking details also.
+
 # Features
 ## ✅ Car Availability
 - After a booking is done that cab will not be available to other until its journey is over.
