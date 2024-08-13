@@ -14,18 +14,18 @@ export default function Header() {
       icon: "/taxi.png",
       path: "/",
     },
-    // {
-    //   id: 2,
-    //   name: "Cab Management",
-    //   icon: "/cab_management.png",
-    //   // path: "/cabs",
-    // },
-    // {
-    //   id: 3,
-    //   name: "All Bookings",
-    //   icon: "/bookings.png",
-    //   // path: "/bookings",
-    // },
+    {
+      id: 2,
+      name: "Cab Management",
+      // icon: "/cab_management.png",
+      path: "/cabs",
+    },
+    {
+      id: 3,
+      name: "All Bookings",
+      // icon: "/bookings.png",
+      path: "/bookings",
+    },
   ];
 
   const toggleMenu = () => {
