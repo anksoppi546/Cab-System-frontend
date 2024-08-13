@@ -10,10 +10,13 @@ Users can book a ride from here by selecting vehicles of own choice. After a suc
 ![Screenshot 2024-08-12 230149](https://github.com/user-attachments/assets/c24a62b4-e64a-4fab-98ac-863033af3845)
 
 ## Cab Management Page
-Pricing and Availability of cabs are managed here.
+- Users can see pricing detail of cabs. Editing fare and make availability of cabs are managed here by authenticated user only.
+- Authentication is done by prompting a password to user.
 ![Screenshot 2024-08-12 230227](https://github.com/user-attachments/assets/3257ac77-5699-4fba-aae9-2c343a012f72)
 
-Users can see all booking details also.
+## All Bookings Page
+- Only authenticated users can see all booking details.
+- Authentication is done by prompting a password to user.
 
 # Features
 ## ✅ Car Availability
