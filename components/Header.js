@@ -15,15 +15,15 @@ export default function Header() {
       path: "/",
     },
     {
-      id: 2,
+      // id: 2,
       name: "Cab Management",
-      // icon: "/cab_management.png",
+      icon: "/cab_management.png",
       path: "/cabs",
     },
     {
-      id: 3,
+      // id: 3,
       name: "All Bookings",
-      // icon: "/bookings.png",
+      icon: "/bookings.png",
       path: "/bookings",
     },
   ];
