@@ -136,18 +136,18 @@ function Page() {
                   <td className="px-6 py-4">
                     {edit != cab._id ? (
                       <div className="flex justify-center items-center gap-3">
-                        <button
-                          onClick={() => handleEdit(cab._id)}
-                          className="font-medium text-blue-600 hover:underline"
-                        >
-                          Edit Fare
-                        </button>
-                        <button
-                          onClick={() => handleAvailable(cab._id)}
-                          className="font-medium text-green-600 hover:underline"
-                        >
-                          Make it Available
-                        </button>
+                        // <button
+                        //   onClick={() => handleEdit(cab._id)}
+                        //   className="font-medium text-blue-600 hover:underline"
+                        // >
+                        //   Edit Fare
+                        // </button>
+                        // <button
+                        //   onClick={() => handleAvailable(cab._id)}
+                        //   className="font-medium text-green-600 hover:underline"
+                        // >
+                        //   Make it Available
+                        // </button>
                       </div>
                     ) : (
                       <div className="font-medium text-blue-600 hover:underline">
