@@ -85,6 +85,15 @@ function Page() {
     setEdit(null);
   };
 
+  const handlePasswordProtectedAction = (action, id) => {
+    const password = prompt("Please enter the password:");
+    if (password === "voltage6612") {
+      action(id);
+    } else {
+      alert("Incorrect password! Action not allowed.");
+    }
+  };
+
   return (
     <div>
       <div className="relative mt-5 mx-3 lg:mx-10 overflow-x-auto shadow-md sm:rounded-lg">
@@ -137,13 +146,14 @@ function Page() {
                     {edit != cab._id ? (
                       <div className="flex justify-center items-center gap-3">
                         <button
-                          // onClick={() => handleEdit(cab._id)}
+                          onClick={() => handlePasswordProtectedAction(handleEdit, cab._id)}
                           className="font-medium text-blue-600 hover:underline"
                         >
                           Edit Fare
                         </button>
+
                         <button
-                          // onClick={() => handleAvailable(cab._id)}
+                          onClick={() => handlePasswordProtectedAction(handleAvailable, cab._id)}
                           className="font-medium text-green-600 hover:underline"
                         >
                           Make it Available
